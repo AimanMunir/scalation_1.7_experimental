@@ -10,11 +10,11 @@ package scalation.graph_db
 
 import scala.runtime.ScalaRunTime.stringOf
 import scala.collection.mutable.{Map, Set => SET}
-import scala.collection.mutable.PriorityQueue
+//import scala.collection.mutable.PriorityQueue
 
 import scalation.math.ExtremeD.{MAX_VALUE, MIN_VALUE}
 import scalation.graph_db.{ExampleMGraphD => EX_GRAPH}
-//import scalation.util.PriorityQueue
+import scalation.util.PriorityQueue
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /** The `MinSpanningTree` class is used to build minimum cost spanning trees
