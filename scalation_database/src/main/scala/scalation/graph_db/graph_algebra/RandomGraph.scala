@@ -12,7 +12,7 @@ package graph_algebra
 import scala.collection.mutable.{ArrayBuffer, Map, Set => SET}
 import scala.reflect.ClassTag
 
-import scalation.random.{Randi,Randi0, RandomSetW, Bernoulli}
+import scalation.random.{Randi,Randi0, RandomSetW, Bernoulli,RandomVecS}
 import scalation.math.double_exp
 
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::

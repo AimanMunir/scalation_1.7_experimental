@@ -400,7 +400,7 @@ case class RandomVecI (dim: Int = 10, max: Int = 20, min: Int = 10, skip: Int = 
  *  @param unique  whether the strings must be unique
  *  @param stream  the random number stream
  */
-/*
+
 case class RandomVecS (dim: Int = 10, unique: Boolean = true, stream: Int = 0)
      extends VariateVec (stream)
 {
@@ -418,7 +418,7 @@ case class RandomVecS (dim: Int = 10, unique: Boolean = true, stream: Int = 0)
 
     def igen: Array[Int] = sgen.map(x=>x.toInt)
 
-    def sgen: VectoS =
+    def sgen: Array[String] =
     {
         val y   = Array.fill(dim)("")
         var str = ""
@@ -435,7 +435,7 @@ case class RandomVecS (dim: Int = 10, unique: Boolean = true, stream: Int = 0)
     } // sgen
 
 } // RandomVecS class
-*/
+
 
 //:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 /** The `Multinomial` class generates random variate vectors following the 
