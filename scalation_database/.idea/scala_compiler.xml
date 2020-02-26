@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="scalation_database_8604" />
+    <profile name="sbt 2" modules="scalation_database">
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-opt:l:method" />
+        <parameter value="-opt:l:inline" />
+        <parameter value="-opt-inline-from:**" />
+        <parameter value="-opt-warnings" />
+        <parameter value="-Xlint:-adapted-args" />
+      </parameters>
+    </profile>
+  </component>
+</project>
